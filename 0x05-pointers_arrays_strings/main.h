@@ -1,7 +1,7 @@
 #ifndef main_h
 #define main_h
 
-Int _puthcar(char c);
+int _puthcar(char c);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
