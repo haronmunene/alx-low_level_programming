@@ -39,9 +39,9 @@ if NULL is passed, treat it as an empty string
 
 ### [4. It's not bragging if you can back it up](4-free_grid.c)
 
-Write a function that frees a 2 dimensional grid previously created by your alloc_grid function.
+- Write a function that frees a 2 dimensional grid previously created by your alloc_grid function.
 
-Prototype: void free_grid(int **grid, int height);
+- Prototype: void free_grid(int **grid, int height);
 Note that we will compile with your alloc-grid.c file. Make sure it compiles.
 
 ### [5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe](100-argstostr.c)
@@ -51,9 +51,8 @@ Note that we will compile with your alloc-grid.c file. Make sure it compiles.
 - Prototype: char *argstostr(int ac, char **av);
 - Returns NULL if ac == 0 or av == NULL
 - Returns a pointer to a new string, or NULL if it fails
-- Each argument should be followed by a \n in the new string  
-
-### [6. I will show you how great I am] (101-strtow.c)
+- Each argument should be followed by a \n in the new string. 
+### [6. I'll show you how great I am](101-strtow.c)
 
 - Write a function that splits a string into words.
 
